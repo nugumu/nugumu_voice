@@ -1,9 +1,4 @@
-#!/usr/bin/env python
 # coding: utf-8
-
-# In[ ]:
-
-
 import win32com.client as wincl
 import wave
 import os
@@ -60,4 +55,3 @@ while True:
         nugumu_speak(values[0])
 
 window.close()
-
